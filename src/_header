@@ -1,0 +1,42 @@
+// Based on UMDLib template v0.8.4
+// ESLint declarations
+/* global define */
+/* eslint strict: ["error", "function"] */
+(function(root, factory) {
+  'use strict';
+
+  /* istanbul ignore next */
+  if (typeof define === 'function' && define.amd) {
+    // AMD. Register as an anonymous module.
+    define([''], factory);
+  } else if (typeof exports === 'object') {
+    // Node. Does not work with strict CommonJS, but
+    // only CommonJS-like environments that support module.exports,
+    // like Node.
+    module.exports = factory(root);
+    // This is a hack to attach the lib to the browser root when this lib is
+    // included inside another lib and the whole is browserifyied:
+    /* eslint-disable no-param-reassign */
+    if (root.JMessenger === null) root.JMessenger = factory(root);
+  } else {
+    // Browser globals.
+    /* eslint-disable-next-line no-param-reassign */
+    root.JMessenger = factory(root);
+  }
+}({{lib:parent}}, function(root) {
+  'use strict';
+
+  // These are the global variables accessible everywhere inside this module.
+  // 'JMessenger' is the variable that defines this library and it is the only
+  // variable accessible outside this module.
+  // 'JM' is an object that exports public methods from the IIFE module
+  // in which they are defined.
+  /* eslint-disable one-var, semi-style */
+  var JMessenger
+    , JM
+    ;
+
+  // Initializes the internal object JM.
+  JM = {};
+
+  /* eslint-enable one-var, semi-style */
