@@ -3,6 +3,7 @@
 ### 0.0.1 (July 5, 2019)
 
   * Updated the dependencies,
+  * Reinstalled the previous version of Husky,
   * ...,
 
 
