@@ -4,6 +4,7 @@
 
   * Updated the dependencies,
   * Reinstalled the previous version of Husky,
+  * Reinstalled the previous version of ESLint,
   * ...,
 
 
