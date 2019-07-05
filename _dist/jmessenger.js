@@ -1,5 +1,5 @@
 /*! ****************************************************************************
- * JMessenger v0.0.0
+ * JMessenger v0.0.1
  *
  * A tiny Javascript library to handle messages that carry a payload.
  * (you can download it from npm or github repositories)
@@ -526,7 +526,7 @@
     previousJMessenger = root.JMessenger;
 
     // Current version of the library:
-    JMessenger.VERSION = '0.0.0';
+    JMessenger.VERSION = '0.0.1';
 
 
     // -- Public Static Methods ------------------------------------------------
