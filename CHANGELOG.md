@@ -1,5 +1,11 @@
 ### HEAD
 
+### 0.0.2 (November 4. 2019)
+
+  * Updated the dependencies,
+  * ...,
+
+
 ### 0.0.1 (July 5, 2019)
 
   * Updated the dependencies,
