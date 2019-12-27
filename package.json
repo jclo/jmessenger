@@ -1,6 +1,6 @@
 {
   "name": "jmessenger",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A tiny Javascript library to handle messages that carry a payload",
   "main": "index.js",
   "bin": {},

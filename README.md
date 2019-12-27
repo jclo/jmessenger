@@ -9,6 +9,8 @@
 <!--- [![node version][node-image]][node-url] -->
 [![NPM install][npm-install-image]][npm-install-url]
 
+| `JMessenger` is no longer maintained. Please, use [@mobilabs/messenger](https://www.npmjs.com/package/@mobilabs/messenger) now. |
+| --- |
 
 `JMessenger` is a tiny Javascript library to handle messages that carry a payload. It is designed to be embedded in another library.
 
